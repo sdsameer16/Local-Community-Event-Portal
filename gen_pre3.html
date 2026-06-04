@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Event Registration Form</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            width: 400px;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 8px;
+        }
+
+        button {
+            padding: 10px;
+        }
+
+        output {
+            color: green;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h2>Community Event Registration</h2>
+
+    <form
+        onsubmit="
+            message.value='Registration Submitted Successfully!';
+            return true;
+        ">
+
+        <label>Name:</label>
+        <input
+            type="text"
+            placeholder="Enter your name"
+            required
+            autofocus>
+
+        <br>
+
+        <label>Email:</label>
+        <input
+            type="email"
+            placeholder="Enter your email"
+            required>
+
+        <br>
+
+        <label>Event Date:</label>
+        <input
+            type="date"
+            required>
+
+        <br>
+
+        <label>Event Type:</label>
+        <select required>
+
+            <option value="">
+                Select Event
+            </option>
+
+            <option>
+                Tree Plantation
+            </option>
+
+            <option>
+                Blood Donation
+            </option>
+
+            <option>
+                Health Camp
+            </option>
+
+        </select>
+
+        <br>
+
+        <label>Message:</label>
+
+        <textarea
+            rows="4"
+            placeholder="Enter your message">
+        </textarea>
+
+        <br>
+
+        <button type="submit">
+            Register
+        </button>
+
+        <br><br>
+
+        <output name="message"></output>
+
+    </form>
+
+</body>
+</html>
