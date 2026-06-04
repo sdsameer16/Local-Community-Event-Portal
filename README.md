@@ -6,11 +6,16 @@ Screen shorts of my HTML Codes:
 Imports the Poppins font
 ## By using Google fonts
 <img width="1920" height="339" alt="image" src="https://github.com/user-attachments/assets/ab034317-c4b4-431a-a02f-c8b43d9acf59" />
-#
+
+# Bootstrap
+
 ## What is Bootstrap?
+Bootstrap is an open-source CSS framework used to build responsive, mobile-friendly websites quickly using pre-built classes and components.
 
-Bootstrap is an open-source CSS framework used to build responsive and mobile-friendly websites quickly using pre-built classes and components.
-
-## Why use Bootstrap?
-
-It reduces CSS coding effort and provides responsive, professional-looking UI components such as forms, buttons, tables, cards, and navigation bars.
+## Why Use Bootstrap?
+It reduces CSS coding effort and provides professional UI components, including:
+* **Forms**
+* **Buttons**
+* **Tables**
+* **Cards**
+* **Navigation bars**
