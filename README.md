@@ -19,3 +19,8 @@ It reduces CSS coding effort and provides professional UI components, including:
 * **Tables**
 * **Cards**
 * **Navigation bars**
+# Implementation of Toggle button, by Js
+
+https://github.com/user-attachments/assets/79d7d7f4-f02c-44d5-a2ec-a614229d1713
+
+
